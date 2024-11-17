@@ -1,0 +1,15 @@
+
+<div className="App">
+      <button className="map-toggle-button" onClick={toggleMap}>
+        {isMapVisible ? "Close Map" : "Open Map"}
+      </button>
+      {isMapVisible && (
+    <div className="container">
+      
+      
+      <MapView locations={locations} />
+    </div>
+      )}
+    </div>
+  );
+};
