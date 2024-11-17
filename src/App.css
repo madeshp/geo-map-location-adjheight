@@ -1,0 +1,104 @@
+/* App.css */
+
+.map-toggle-button {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+}
+
+/*.map-container {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  left: 20px;
+  width: 1880px;
+  height: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}*/
+.map-container {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  width: auto;
+  height: 90vh;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  resize: both; /* Allow resizing from all corners */
+  min-width: 300px;
+  min-height: 300px; /* Prevent too-small resizing */
+}
+.map-container:active {
+  cursor: grabbing; /* Change cursor on map dragging */
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.error {
+  color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .map-container {
+    bottom: 10%; /* Add more spacing for smaller screens */
+    right: 5%; /* Adjust spacing */
+    left: 5%; /* Adjust spacing */
+    height: 60vh; /* Adjust height to fit smaller screens */
+    border-radius: 4px; /* Reduce border radius for smaller screens */
+  }
+}
+
+/* Media Query for Very Small Screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  .map-container {
+    bottom: 5%; /* Minimal spacing */
+    right: 2.5%;
+    left: 2.5%;
+    height: 50vh; /* Smaller height for very small screens */
+    border-radius: 2px; /* Further reduce border radius */
+  }
+}
+
+
+.map-container.expanded {
+  
+  width: 1880px; /* Expanded size */
+  height: 790px; /* Expanded size */
+}
+
+.expand-button {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  z-index: 1002;
+}
