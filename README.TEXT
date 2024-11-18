@@ -36,3 +36,103 @@ export default function Home() {
     </main>
   );
 }
+
+
+[
+    {
+        "name": "John Smith",
+        "address": "123 Main St, New York, NY",
+        "coordinates": [40.7128, -74.0060],
+        "status": "Active",
+        "lastUpdate": "5m ago",
+        "id": 1
+    },
+    {
+        "name": "Sarah Johnson",
+        "address": "456 Market St, San Francisco, CA",
+        "coordinates": [37.7749, -122.4194],
+        "status": "Active",
+        "lastUpdate": "10m ago",
+        "id": 2
+    },
+    {
+        "name": "Michael Brown",
+        "address": "789 State St, Chicago, IL",
+        "coordinates": [41.8781, -87.6298],
+        "status": "Active",
+        "lastUpdate": "15m ago",
+        "id": 3
+    },
+    {
+        "name": "Emma Davis",
+        "address": "321 Spring St, Los Angeles, CA",
+        "coordinates": [34.0522, -118.2437],
+        "status": "Active",
+        "lastUpdate": "20m ago",
+        "id": 4
+    },
+    {
+        "name": "James Wilson",
+        "address": "567 Oak St, Houston, TX",
+        "coordinates": [29.7604, -95.3698],
+        "status": "Active",
+        "lastUpdate": "25m ago",
+        "id": 5
+    },
+    {
+        "name": "Emily Thompson",
+        "address": "789 Peachtree St, Atlanta, GA",
+        "coordinates": [33.7490, -84.3880],
+        "status": "Active",
+        "lastUpdate": "30m ago",
+        "id": 6
+    },
+    {
+        "name": "David Martinez",
+        "address": "321 Pine St, Phoenix, AZ",
+        "coordinates": [33.4484, -112.0740],
+        "status": "Active",
+        "lastUpdate": "35m ago",
+        "id": 7
+    },
+    {
+        "name": "Sofia Rodriguez",
+        "address": "555 Ocean Dr, Miami, FL",
+        "coordinates": [25.7617, -80.1918],
+        "status": "Active",
+        "lastUpdate": "40m ago",
+        "id": 8
+    },
+    {
+        "name": "William Taylor",
+        "address": "444 Liberty Ave, Pittsburgh, PA",
+        "coordinates": [40.4406, -79.9959],
+        "status": "Active",
+        "lastUpdate": "45m ago",
+        "id": 9
+    },
+    {
+        "name": "Isabella Anderson",
+        "address": "777 Broadway, Seattle, WA",
+        "coordinates": [47.6062, -122.3321],
+        "status": "Active",
+        "lastUpdate": "50m ago",
+        "id": 10
+    },
+    {
+        "name": "Alexander Clark",
+        "address": "888 Elm St, Denver, CO",
+        "coordinates": [39.7392, -104.9903],
+        "status": "Active",
+        "lastUpdate": "55m ago",
+        "id": 11
+    },
+    {
+        "name": "Olivia Wright",
+        "address": "999 Washington St, Boston, MA",
+        "coordinates": [42.3601, -71.0589],
+        "status": "Active",
+        "lastUpdate": "1h ago",
+        "id": 12
+    }
+]
